@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>居酒家 きらく | 北久里浜の和やかな昭和レトロ居酒屋</title>
+    <meta name="description" content="京急久里浜線・北久里浜駅より徒歩3分。昭和レトロな雰囲気の店内で、もつ煮込みや出し巻き玉子などの定番料理と豊富なお酒を楽しめる居酒屋です。大宴会も可能な座敷完備。">
+    <meta name="keywords" content="北久里浜駅,根岸,居酒屋,宴会,座敷,日本酒,もつ煮込み">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Noto+Sans+JP:wght@400;500;700&family=Shippori+Mincho:wght@500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <header class="site-header">
+        <div class="header-inner">
+            <h1 class="logo">居酒家 <span>きらく</span></h1>
+            <nav class="global-nav">
+                <ul>
+                    <li><a href="#concept">こだわり</a></li>
+                    <li><a href="#menu">お品書き</a></li>
+                    <li><a href="#space">空間</a></li>
+                    <li><a href="#access">店舗情報</a></li>
+                </ul>
+            </nav>
+            <div class="header-cta">
+                <a href="tel:046-807-1177" class="btn-tel">046-807-1177</a>
+            </div>
+            <button class="hamburger" aria-label="メニューを開閉する" aria-expanded="false">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-carousel">
+            <!-- Will be populated by JS or CSS animation -->
+            <div class="carousel-slide" style="background-image: url('images/hero_bg.webp');"></div>
+        </div>
+        <div class="hero-content">
+            <h2 class="hero-copy">あたたかで<br>和やかな<br>雰囲気のお店</h2>
+            <p class="hero-sub">じっくりお酒を楽しめる、北久里浜の隠れ家</p>
+        </div>
+        <div class="scroll-indicator">
+            <span>Scroll</span>
+            <div class="line"></div>
+        </div>
+    </section>
+
+    <!-- Concept Section -->
+    <section id="concept" class="concept section">
+        <div class="container">
+            <h2 class="section-title">きらくの<span>こだわり</span></h2>
+            <div class="concept-content">
+                <p class="concept-text">
+                    京急久里浜線・北久里浜駅より徒歩3分。<br>
+                    ビルの喧騒を抜けた先にあるのは、<br>どこか懐かしい昭和レトロな空間。<br><br>
+                    当店自慢の「もつ煮込み」や「出し巻き玉子」など、<br>
+                    心温まる定番料理と、全国から取り寄せた豊富なお酒。<br><br>
+                    仕事帰りのお一人様から、週末の大宴会まで、<br>
+                    誰もが「気楽」に過ごせる居場所をご用意しております。
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Menu Section -->
+    <section id="menu" class="menu section bg-light">
+        <div class="container">
+            <h2 class="section-title">自慢の<span>名物料理</span></h2>
+            <div class="menu-grid">
+                <article class="menu-card">
+                    <div class="card-image">
+                        <img src="images/motsu_nikomi.webp" alt="もつ煮込み" loading="lazy">
+                        <span class="badge">名物</span>
+                    </div>
+                    <div class="card-content">
+                        <h3>もつ煮込み</h3>
+                        <p>じっくりと時間をかけて煮込んだ、きらくの看板メニュー。お酒のお供に欠かせない一品です。</p>
+                    </div>
+                </article>
+                <article class="menu-card">
+                    <div class="card-image">
+                        <img src="images/dashimaki.webp" alt="出し巻き玉子" loading="lazy">
+                    </div>
+                    <div class="card-content">
+                        <h3>出し巻き玉子</h3>
+                        <p>お出汁をたっぷり含んだ、ふっくら熱々の玉子焼き。注文を受けてから丁寧に焼き上げます。</p>
+                    </div>
+                </article>
+                <article class="menu-card">
+                    <div class="card-image">
+                        <img src="images/karaage.webp" alt="若鶏のからあげ" loading="lazy">
+                    </div>
+                    <div class="card-content">
+                        <h3>若鶏のからあげ</h3>
+                        <p>外はカリッと、中はジューシー。秘伝のタレに漬け込んだ、ボリューム満点の唐揚げです。</p>
+                    </div>
+                </article>
+            </div>
+
+            <h2 class="section-title mt-10">厳選された<span>お酒</span></h2>
+            <div class="drink-layout">
+                <div class="drink-image">
+                    <img src="images/sake.webp" alt="日本酒" loading="lazy">
+                </div>
+                <div class="drink-text">
+                    <p>定番の生ビールやサワー、酎ハイはもちろん、<br>お料理の良さを引き立てる「日本酒」を豊富に取り揃えております。<br>その日の気分や好みに合わせて、最高の一杯をお楽しみください。</p>
+                    <ul class="drink-list">
+                        <li>日本酒</li>
+                        <li>サワー</li>
+                        <li>酎ハイ</li>
+                        <li>生ビール</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Space Section -->
+    <section id="space" class="space section">
+        <div class="container">
+            <h2 class="section-title">寛ぎの<span>空間</span></h2>
+            <div class="space-z-pattern">
+                <!-- Z-Pattern Item 1 -->
+                <div class="z-item">
+                    <div class="z-image">
+                        <img src="images/seat_counter.webp" alt="カウンター席" loading="lazy">
+                    </div>
+                    <div class="z-text">
+                        <h3>ライブ感あふれるカウンター席</h3>
+                        <p>お一人様でも気兼ねなく楽しめるカウンター席。大将との会話や、調理の音と香りを間近で感じられる特等席です。</p>
+                    </div>
+                </div>
+                <!-- Z-Pattern Item 2 -->
+                <div class="z-item reverse">
+                    <div class="z-image">
+                        <img src="images/seat_zashiki.webp" alt="お座敷" loading="lazy">
+                    </div>
+                    <div class="z-text">
+                        <h3>ゆったり足を延ばせるお座敷</h3>
+                        <p>グループでの飲み会やご家族連れ、大規模な宴会にも対応可能なお座敷を完備。昭和レトロな落ち着いた空間で、心ゆくまでお過ごしください。</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Info Section -->
+    <section id="access" class="info section bg-light">
+        <div class="container">
+            <h2 class="section-title">店舗情報・<span>アクセス</span></h2>
+            <div class="info-layout">
+                <dl class="info-list">
+                    <dt>店名</dt>
+                    <dd>居酒家 きらく</dd>
+                    <dt>住所</dt>
+                    <dd>〒239-0807<br>神奈川県横須賀市根岸町3-10-18</dd>
+                    <dt>アクセス</dt>
+                    <dd>京急久里浜線 北久里浜駅より国道沿いに徒歩3分</dd>
+                    <dt>営業時間</dt>
+                    <dd>月・火・水・木・日：17:00 - 翌1:00<br>金・土：17:00 - 翌5:00</dd>
+                    <dt>定休日</dt>
+                    <dd>年中無休</dd>
+                    <dt>ご予約・お問合せ</dt>
+                    <dd class="tel">
+                        <a href="tel:046-807-1177">046-807-1177</a>
+                        <span class="note">「ホームページを見た」とお伝えいただくとスムーズです</span>
+                    </dd>
+                </dl>
+                <div class="map-container">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3256.4025113940173!2d139.67812971525048!3d35.24227318029519!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60184061619ba82b%3A0xc6cb1a5e3f421f66!2z44CSMjM5LTA4MDcg56We5aWI5bed55yM5qiq6aCI6LOA5biC5qC55bK455S677yT5LiB55uu77yR77yQ4oiS77yR77yX!5e0!3m2!1sja!2sjp!4v1650000000000!5m2!1sja!2sjp" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" aria-hidden="false" tabindex="0"></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sticky Bottom CTA -->
+    <div class="sticky-cta">
+        <div class="cta-inner">
+            <p>ご予約・お問い合わせはこちら</p>
+            <a href="tel:046-807-1177" class="btn-cta">
+                <svg viewBox="0 0 24 24" fill="currentColor" width="20" height="20">
+                    <path d="M20.01 15.38c-1.23 0-2.42-.2-3.53-.56a.977.977 0 00-1.01.24l-1.57 1.97c-2.83-1.35-5.48-3.9-6.89-6.83l1.95-1.66c.27-.28.35-.67.24-1.02-.37-1.11-.56-2.3-.56-3.53 0-.54-.45-.99-.99-.99H4.19C3.65 3 3 3.24 3 3.99 3 13.28 10.73 21 20.01 21c.71 0 .99-.63.99-1.18v-3.45c0-.54-.45-.99-.99-.99z"/>
+                </svg>
+                046-807-1177
+            </a>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <div class="container">
+            <h2 class="footer-logo">居酒家 <span>きらく</span></h2>
+            <ul class="footer-nav">
+                <li><a href="#concept">こだわり</a></li>
+                <li><a href="#menu">お品書き</a></li>
+                <li><a href="#space">空間</a></li>
+                <li><a href="#access">店舗情報</a></li>
+            </ul>
+            <p class="copyright">&copy; 居酒家 きらく All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const hamburger = document.querySelector('.hamburger');
+            const nav = document.querySelector('.global-nav');
+
+            if(hamburger) {
+                hamburger.addEventListener('click', () => {
+                    hamburger.classList.toggle('active');
+                    nav.classList.toggle('active');
+                    const expanded = hamburger.getAttribute('aria-expanded') === 'true' || false;
+                    hamburger.setAttribute('aria-expanded', !expanded);
+                });
+            }
+
+            // Smooth Scroll
+            document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+                anchor.addEventListener('click', function (e) {
+                    e.preventDefault();
+                    if(hamburger.classList.contains('active')) {
+                        hamburger.classList.remove('active');
+                        nav.classList.remove('active');
+                    }
+                    document.querySelector(this.getAttribute('href')).scrollIntoView({
+                        behavior: 'smooth'
+                    });
+                });
+            });
+        });
+    </script>
+</body>
+</html>
