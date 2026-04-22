@@ -319,8 +319,35 @@ h1, h2, h3, h4 {
     transition: transform 0.5s;
 }
 
+.card-image .menu-photo-motsu {
+    transform: scale(1.14);
+    transform-origin: 50% 50%;
+}
+
+.card-image .menu-photo-tamago {
+    transform: scale(1.12);
+    transform-origin: 50% 54%;
+}
+
+.card-image .menu-photo-karaage {
+    transform: scale(1.26);
+    transform-origin: 52% 58%;
+}
+
 .menu-card:hover .card-image img {
     transform: scale(1.05);
+}
+
+.menu-card:hover .card-image .menu-photo-motsu {
+    transform: scale(1.18);
+}
+
+.menu-card:hover .card-image .menu-photo-tamago {
+    transform: scale(1.16);
+}
+
+.menu-card:hover .card-image .menu-photo-karaage {
+    transform: scale(1.3);
 }
 
 .badge {
